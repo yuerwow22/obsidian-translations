@@ -1,1 +1,28 @@
-[]
+[
+    {
+        "id": "OwNa94pJdpq-A4-V7jITXTTda9aYW_MA",
+        "plugin": "lang-plus",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supported_versions": "0.3.2",
+        "title": "i18n+",
+        "description": "i18n+ Localization & Tweaks",
+        "hash": "7a1dff637a1dff637a1dff637a1dff63",
+        "created_at": "2026-10-20T17:43:01.736Z",
+        "updated_at": "2026-10-20T17:43:01.736Z"
+    },
+    {
+        "id": "YSHJ9crkz_tRtq8biSGXHUwkcEC9xj7E",
+        "plugin": "table-editor-obsidian",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supported_versions": "0.23.2",
+        "title": "Advanced Tables",
+        "description": "Advanced Tables Localization & Tweaks",
+        "hash": "6c83ae8f6c83ae8f6c83ae8f6c83ae8f",
+        "created_at": "2026-10-20T17:43:01.736Z",
+        "updated_at": "2026-10-20T17:43:01.736Z"
+    }
+]
