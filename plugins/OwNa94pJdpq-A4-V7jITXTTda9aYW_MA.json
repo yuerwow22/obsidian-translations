@@ -1,0 +1,1230 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "lang-plus",
+        "version": "1.0.0",
+        "title": "i18n+",
+        "description": "i18n+ Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.3.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "span",
+                    "target": "span"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "progress",
+                    "target": "progress"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "select",
+                    "target": "select"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "option",
+                    "target": "option"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "small",
+                    "target": "small"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "label",
+                    "target": "label"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "table",
+                    "target": "table"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "thead",
+                    "target": "thead"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "tr",
+                    "target": "tr"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "th",
+                    "target": "th"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "tbody",
+                    "target": "tbody"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "td",
+                    "target": "td"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "textarea",
+                    "target": "textarea"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[i18n-plus] Failed to parse settings YAML from CSS",
+                    "target": "[i18n-plus] Failed to parse settings YAML from CSS"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[i18n-plus] Failed to list dictionaries",
+                    "target": "[i18n-plus] Failed to list dictionaries"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[i18n-plus] Failed to list theme dictionaries",
+                    "target": "[i18n-plus] Failed to list theme dictionaries"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[i18n-plus] Failed to delete theme dictionary:",
+                    "target": "[i18n-plus] Failed to delete theme dictionary:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[i18n-plus] Failed to check theme dictionary hash:",
+                    "target": "[i18n-plus] Failed to check theme dictionary hash:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[i18n-plus] Dictionary download failed:",
+                    "target": "[i18n-plus] Dictionary download failed:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[i18n-plus] Failed to create dictionary:",
+                    "target": "[i18n-plus] Failed to create dictionary:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[i18n-plus] Failed to create theme dictionary:",
+                    "target": "[i18n-plus] Failed to create theme dictionary:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[i18n-plus] Failed to save dictionary:",
+                    "target": "[i18n-plus] Failed to save dictionary:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Save",
+                    "target": "Save"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "OK",
+                    "target": "OK"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[i18n-plus] Failed to parse @@ids alias list",
+                    "target": "[i18n-plus] Failed to parse @@ids alias list"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[i18n-plus] Cloud manifest fetch failed.",
+                    "target": "[i18n-plus] Cloud manifest fetch failed."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[i18n-plus] Failed to restart plugin",
+                    "target": "[i18n-plus] Failed to restart plugin"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Invalid dictionary: missing $meta.locale",
+                    "target": "Invalid dictionary: missing $meta.locale"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Back to dictionary manager",
+                    "target": "Back to dictionary manager"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "clickable-icon i18n-plus-refresh-btn",
+                    "target": "clickable-icon i18n-plus-refresh-btn"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "setting-item-description i18n-plus-list-empty-msg",
+                    "target": "setting-item-description i18n-plus-list-empty-msg"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "i18n-plus-plugin-section is-collapsed",
+                    "target": "i18n-plus-plugin-section is-collapsed"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "dropdown",
+                    "target": "dropdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "clickable-icon is-update",
+                    "target": "clickable-icon is-update"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "clickable-icon mod-warning",
+                    "target": "clickable-icon mod-warning"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "i18n-plus-card-header i18n-plus-orphan-header",
+                    "target": "i18n-plus-card-header i18n-plus-orphan-header"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "i18n-plus-modal-content i18n-plus-locale-list",
+                    "target": "i18n-plus-modal-content i18n-plus-locale-list"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "clickable-icon i18n-plus-editor-back-btn",
+                    "target": "clickable-icon i18n-plus-editor-back-btn"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "i18n-plus-badge i18n-plus-badge-readonly",
+                    "target": "i18n-plus-badge i18n-plus-badge-readonly"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "i18n+ 插件官方中文翻译",
+                    "target": "i18n+ 插件官方中文翻译"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "i18n+ plugin default English strings",
+                    "target": "i18n+ plugin default English strings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Automatically extracted from theme.css via Style Settings metadata",
+                    "target": "Automatically extracted from theme.css via Style Settings metadata"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "jsDelivr (@latest)",
+                    "target": "jsDelivr (@latest)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "jsDelivr (@main)",
+                    "target": "jsDelivr (@main)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "unpkg",
+                    "target": "unpkg"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Custom URL...",
+                    "target": "Custom URL..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Dictionary must be an object",
+                    "target": "Dictionary must be an object"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "$meta must be an object",
+                    "target": "$meta must be an object"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Missing or invalid $meta.locale",
+                    "target": "Missing or invalid $meta.locale"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Missing or invalid $meta.dictVersion",
+                    "target": "Missing or invalid $meta.dictVersion"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Dictionary must have $meta.locale field",
+                    "target": "Dictionary must have $meta.locale field"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "English",
+                    "target": "English"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Afrikaans",
+                    "target": "Afrikaans"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Amharic",
+                    "target": "Amharic"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Arabic",
+                    "target": "Arabic"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Azerbaijani",
+                    "target": "Azerbaijani"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Belarusian",
+                    "target": "Belarusian"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bulgarian",
+                    "target": "Bulgarian"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bengali",
+                    "target": "Bengali"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Catalan",
+                    "target": "Catalan"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Czech",
+                    "target": "Czech"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Danish",
+                    "target": "Danish"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "German",
+                    "target": "German"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dhivehi",
+                    "target": "Dhivehi"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Greek",
+                    "target": "Greek"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "English (GB)",
+                    "target": "English (GB)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Esperanto",
+                    "target": "Esperanto"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Spanish",
+                    "target": "Spanish"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Basque",
+                    "target": "Basque"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Persian",
+                    "target": "Persian"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Finnish",
+                    "target": "Finnish"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "French",
+                    "target": "French"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Irish",
+                    "target": "Irish"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Galician",
+                    "target": "Galician"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hebrew",
+                    "target": "Hebrew"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hindi",
+                    "target": "Hindi"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Croatian",
+                    "target": "Croatian"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hungarian",
+                    "target": "Hungarian"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Indonesian",
+                    "target": "Indonesian"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Italian",
+                    "target": "Italian"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Japanese",
+                    "target": "Japanese"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Georgian",
+                    "target": "Georgian"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Khmer",
+                    "target": "Khmer"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kannada",
+                    "target": "Kannada"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Korean",
+                    "target": "Korean"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kyrgyz",
+                    "target": "Kyrgyz"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Latin",
+                    "target": "Latin"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lithuanian",
+                    "target": "Lithuanian"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Latvian",
+                    "target": "Latvian"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Malayalam",
+                    "target": "Malayalam"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Malay",
+                    "target": "Malay"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Taiwanese (Min Nan)",
+                    "target": "Taiwanese (Min Nan)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nepali",
+                    "target": "Nepali"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dutch",
+                    "target": "Dutch"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Norwegian Nynorsk",
+                    "target": "Norwegian Nynorsk"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Norwegian",
+                    "target": "Norwegian"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Occitan",
+                    "target": "Occitan"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Odia",
+                    "target": "Odia"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Polish",
+                    "target": "Polish"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Portuguese",
+                    "target": "Portuguese"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Brazilian Portuguese",
+                    "target": "Brazilian Portuguese"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Romanian",
+                    "target": "Romanian"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Russian",
+                    "target": "Russian"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sanskrit",
+                    "target": "Sanskrit"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sinhalese",
+                    "target": "Sinhalese"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Slovak",
+                    "target": "Slovak"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Slovenian",
+                    "target": "Slovenian"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Albanian",
+                    "target": "Albanian"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Serbian",
+                    "target": "Serbian"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Swedish",
+                    "target": "Swedish"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Swahili",
+                    "target": "Swahili"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tamil",
+                    "target": "Tamil"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Telugu",
+                    "target": "Telugu"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Thai",
+                    "target": "Thai"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Filipino (Tagalog)",
+                    "target": "Filipino (Tagalog)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Turkish",
+                    "target": "Turkish"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tatar",
+                    "target": "Tatar"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ukrainian",
+                    "target": "Ukrainian"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Urdu",
+                    "target": "Urdu"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Uzbek",
+                    "target": "Uzbek"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Vietnamese",
+                    "target": "Vietnamese"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Chinese (Simplified)",
+                    "target": "Chinese (Simplified)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Chinese (Traditional)",
+                    "target": "Chinese (Traditional)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "mustache",
+                    "target": "mustache"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "indexed",
+                    "target": "indexed"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "printf",
+                    "target": "printf"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "template",
+                    "target": "template"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "icu",
+                    "target": "icu"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "i18n+ API not initialized",
+                    "target": "i18n+ API not initialized"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No dictionaries available for this theme.",
+                    "target": "No dictionaries available for this theme."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No matches",
+                    "target": "No matches"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Confirm",
+                    "target": "Confirm"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "text",
+                    "target": "text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "checkbox",
+                    "target": "checkbox"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"[i18n-plus] Failed to check theme dictionary hash:\", e);\n      return false;\n    }\n  }\n};\n\n// src/services/cloud-manager.ts\nvar import_obsidian4 = require(\"obsidian\")",
+                    "target": "error(\"[i18n-plus] Failed to check theme dictionary hash:\", e);\n      return false;\n    }\n  }\n};\n\n// src/services/cloud-manager.ts\nvar import_obsidian4 = require(\"obsidian\")"
+                },
+                {
+                    "source": "Notice(`Restarting ${pluginId} to apply new locale...`)",
+                    "target": "Notice(`Restarting ${pluginId} to apply new locale...`)"
+                },
+                {
+                    "source": "Notice(`Could not restart ${pluginId}. Reload Obsidian to see changes.`)",
+                    "target": "Notice(`Could not restart ${pluginId}. Reload Obsidian to see changes.`)"
+                },
+                {
+                    "source": "setName(`${dict.pluginId} / ${dict.locale}`)",
+                    "target": "setName(`${dict.pluginId} / ${dict.locale}`)"
+                },
+                {
+                    "source": "Notice(`Dictionary for ${selectedLocale.code} already exists.`)",
+                    "target": "Notice(`Dictionary for ${selectedLocale.code} already exists.`)"
+                },
+                {
+                    "source": "Notice(\"Invalid dictionary: missing $meta.locale\")",
+                    "target": "Notice(\"Invalid dictionary: missing $meta.locale\")"
+                },
+                {
+                    "source": "error(\"[i18n-plus] Failed to save dictionary:\", error);\n      new import_obsidian7.Notice(t(\"notice.save_failed\")",
+                    "target": "error(\"[i18n-plus] Failed to save dictionary:\", error);\n      new import_obsidian7.Notice(t(\"notice.save_failed\")"
+                },
+                {
+                    "source": "name: \"English\"",
+                    "target": "name: \"English\""
+                },
+                {
+                    "source": "name: \"Afrikaans\"",
+                    "target": "name: \"Afrikaans\""
+                },
+                {
+                    "source": "name: \"Amharic\"",
+                    "target": "name: \"Amharic\""
+                },
+                {
+                    "source": "name: \"Arabic\"",
+                    "target": "name: \"Arabic\""
+                },
+                {
+                    "source": "name: \"Azerbaijani\"",
+                    "target": "name: \"Azerbaijani\""
+                },
+                {
+                    "source": "name: \"Belarusian\"",
+                    "target": "name: \"Belarusian\""
+                },
+                {
+                    "source": "name: \"Bulgarian\"",
+                    "target": "name: \"Bulgarian\""
+                },
+                {
+                    "source": "name: \"Bengali\"",
+                    "target": "name: \"Bengali\""
+                },
+                {
+                    "source": "name: \"Catalan\"",
+                    "target": "name: \"Catalan\""
+                },
+                {
+                    "source": "name: \"Czech\"",
+                    "target": "name: \"Czech\""
+                },
+                {
+                    "source": "name: \"Danish\"",
+                    "target": "name: \"Danish\""
+                },
+                {
+                    "source": "name: \"German\"",
+                    "target": "name: \"German\""
+                },
+                {
+                    "source": "name: \"Dhivehi\"",
+                    "target": "name: \"Dhivehi\""
+                },
+                {
+                    "source": "name: \"Greek\"",
+                    "target": "name: \"Greek\""
+                },
+                {
+                    "source": "name: \"English (GB)\"",
+                    "target": "name: \"English (GB)\""
+                },
+                {
+                    "source": "name: \"Esperanto\"",
+                    "target": "name: \"Esperanto\""
+                },
+                {
+                    "source": "name: \"Spanish\"",
+                    "target": "name: \"Spanish\""
+                },
+                {
+                    "source": "name: \"Basque\"",
+                    "target": "name: \"Basque\""
+                },
+                {
+                    "source": "name: \"Persian\"",
+                    "target": "name: \"Persian\""
+                },
+                {
+                    "source": "name: \"Finnish\"",
+                    "target": "name: \"Finnish\""
+                },
+                {
+                    "source": "name: \"French\"",
+                    "target": "name: \"French\""
+                },
+                {
+                    "source": "name: \"Irish\"",
+                    "target": "name: \"Irish\""
+                },
+                {
+                    "source": "name: \"Galician\"",
+                    "target": "name: \"Galician\""
+                },
+                {
+                    "source": "name: \"Hebrew\"",
+                    "target": "name: \"Hebrew\""
+                },
+                {
+                    "source": "name: \"Hindi\"",
+                    "target": "name: \"Hindi\""
+                },
+                {
+                    "source": "name: \"Croatian\"",
+                    "target": "name: \"Croatian\""
+                },
+                {
+                    "source": "name: \"Hungarian\"",
+                    "target": "name: \"Hungarian\""
+                },
+                {
+                    "source": "name: \"Indonesian\"",
+                    "target": "name: \"Indonesian\""
+                },
+                {
+                    "source": "name: \"Italian\"",
+                    "target": "name: \"Italian\""
+                },
+                {
+                    "source": "name: \"Japanese\"",
+                    "target": "name: \"Japanese\""
+                },
+                {
+                    "source": "name: \"Georgian\"",
+                    "target": "name: \"Georgian\""
+                },
+                {
+                    "source": "name: \"Khmer\"",
+                    "target": "name: \"Khmer\""
+                },
+                {
+                    "source": "name: \"Kannada\"",
+                    "target": "name: \"Kannada\""
+                },
+                {
+                    "source": "name: \"Korean\"",
+                    "target": "name: \"Korean\""
+                },
+                {
+                    "source": "name: \"Kyrgyz\"",
+                    "target": "name: \"Kyrgyz\""
+                },
+                {
+                    "source": "name: \"Latin\"",
+                    "target": "name: \"Latin\""
+                },
+                {
+                    "source": "name: \"Lithuanian\"",
+                    "target": "name: \"Lithuanian\""
+                },
+                {
+                    "source": "name: \"Latvian\"",
+                    "target": "name: \"Latvian\""
+                },
+                {
+                    "source": "name: \"Malayalam\"",
+                    "target": "name: \"Malayalam\""
+                },
+                {
+                    "source": "name: \"Malay\"",
+                    "target": "name: \"Malay\""
+                },
+                {
+                    "source": "name: \"Taiwanese (Min Nan)\"",
+                    "target": "name: \"Taiwanese (Min Nan)\""
+                },
+                {
+                    "source": "name: \"Nepali\"",
+                    "target": "name: \"Nepali\""
+                },
+                {
+                    "source": "name: \"Dutch\"",
+                    "target": "name: \"Dutch\""
+                },
+                {
+                    "source": "name: \"Norwegian Nynorsk\"",
+                    "target": "name: \"Norwegian Nynorsk\""
+                },
+                {
+                    "source": "name: \"Norwegian\"",
+                    "target": "name: \"Norwegian\""
+                },
+                {
+                    "source": "name: \"Occitan\"",
+                    "target": "name: \"Occitan\""
+                },
+                {
+                    "source": "name: \"Odia\"",
+                    "target": "name: \"Odia\""
+                },
+                {
+                    "source": "name: \"Polish\"",
+                    "target": "name: \"Polish\""
+                },
+                {
+                    "source": "name: \"Portuguese\"",
+                    "target": "name: \"Portuguese\""
+                },
+                {
+                    "source": "name: \"Brazilian Portuguese\"",
+                    "target": "name: \"Brazilian Portuguese\""
+                },
+                {
+                    "source": "name: \"Romanian\"",
+                    "target": "name: \"Romanian\""
+                },
+                {
+                    "source": "name: \"Russian\"",
+                    "target": "name: \"Russian\""
+                },
+                {
+                    "source": "name: \"Sanskrit\"",
+                    "target": "name: \"Sanskrit\""
+                },
+                {
+                    "source": "name: \"Sinhalese\"",
+                    "target": "name: \"Sinhalese\""
+                },
+                {
+                    "source": "name: \"Slovak\"",
+                    "target": "name: \"Slovak\""
+                },
+                {
+                    "source": "name: \"Slovenian\"",
+                    "target": "name: \"Slovenian\""
+                },
+                {
+                    "source": "name: \"Albanian\"",
+                    "target": "name: \"Albanian\""
+                },
+                {
+                    "source": "name: \"Serbian\"",
+                    "target": "name: \"Serbian\""
+                },
+                {
+                    "source": "name: \"Swedish\"",
+                    "target": "name: \"Swedish\""
+                },
+                {
+                    "source": "name: \"Swahili\"",
+                    "target": "name: \"Swahili\""
+                },
+                {
+                    "source": "name: \"Tamil\"",
+                    "target": "name: \"Tamil\""
+                },
+                {
+                    "source": "name: \"Telugu\"",
+                    "target": "name: \"Telugu\""
+                },
+                {
+                    "source": "name: \"Thai\"",
+                    "target": "name: \"Thai\""
+                },
+                {
+                    "source": "name: \"Filipino (Tagalog)\"",
+                    "target": "name: \"Filipino (Tagalog)\""
+                },
+                {
+                    "source": "name: \"Turkish\"",
+                    "target": "name: \"Turkish\""
+                },
+                {
+                    "source": "name: \"Tatar\"",
+                    "target": "name: \"Tatar\""
+                },
+                {
+                    "source": "name: \"Ukrainian\"",
+                    "target": "name: \"Ukrainian\""
+                },
+                {
+                    "source": "name: \"Urdu\"",
+                    "target": "name: \"Urdu\""
+                },
+                {
+                    "source": "name: \"Uzbek\"",
+                    "target": "name: \"Uzbek\""
+                },
+                {
+                    "source": "name: \"Vietnamese\"",
+                    "target": "name: \"Vietnamese\""
+                },
+                {
+                    "source": "name: \"Chinese (Simplified)\"",
+                    "target": "name: \"Chinese (Simplified)\""
+                },
+                {
+                    "source": "name: \"Chinese (Traditional)\"",
+                    "target": "name: \"Chinese (Traditional)\""
+                },
+                {
+                    "source": "description: \"i18n+ plugin default English strings\"",
+                    "target": "description: \"i18n+ plugin default English strings\""
+                },
+                {
+                    "source": "text: \"i18n+ API not initialized\"",
+                    "target": "text: \"i18n+ API not initialized\""
+                },
+                {
+                    "source": "description: \"Automatically extracted from theme.css via Style Settings metadata\"",
+                    "target": "description: \"Automatically extracted from theme.css via Style Settings metadata\""
+                },
+                {
+                    "source": "description: `Exported builtin dictionary for ${locale}`",
+                    "target": "description: `Exported builtin dictionary for ${locale}`"
+                },
+                {
+                    "source": "text: `${currentDicts.length} ${t(\"manager.dictionaries_suffix\") || \"dictionaries\"}`",
+                    "target": "text: `${currentDicts.length} ${t(\"manager.dictionaries_suffix\") || \"dictionaries\"}`"
+                },
+                {
+                    "source": "text: \"No dictionaries available for this theme.\"",
+                    "target": "text: \"No dictionaries available for this theme.\""
+                },
+                {
+                    "source": "description: `User created dictionary for ${themeName}`",
+                    "target": "description: `User created dictionary for ${themeName}`"
+                },
+                {
+                    "source": "text: `${opt.nativeName} (${opt.name})`",
+                    "target": "text: `${opt.nativeName} (${opt.name})`"
+                },
+                {
+                    "source": "text: \"No matches\"",
+                    "target": "text: \"No matches\""
+                },
+                {
+                    "source": "name: \"mustache\"",
+                    "target": "name: \"mustache\""
+                },
+                {
+                    "source": "name: \"indexed\"",
+                    "target": "name: \"indexed\""
+                },
+                {
+                    "source": "name: \"printf\"",
+                    "target": "name: \"printf\""
+                },
+                {
+                    "source": "name: \"template\"",
+                    "target": "name: \"template\""
+                },
+                {
+                    "source": "name: \"icu\"",
+                    "target": "name: \"icu\""
+                },
+                {
+                    "source": "textContent = \"Read-only\"",
+                    "target": "textContent = \"Read-only\""
+                },
+                {
+                    "source": "textContent = `Showing ${shown} of ${total} entries`",
+                    "target": "textContent = `Showing ${shown} of ${total} entries`"
+                },
+                {
+                    "source": "textContent = `${total} entries | ${withVars} with variables`",
+                    "target": "textContent = `${total} entries | ${withVars} with variables`"
+                },
+                {
+                    "source": "text: \"Confirm\"",
+                    "target": "text: \"Confirm\""
+                }
+            ]
+        }
+    }
+}
